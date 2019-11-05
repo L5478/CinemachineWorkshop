@@ -13,7 +13,7 @@
 (Optional)
 11. Move the `second Virtual Camera` so it is not around the corner anymore, and sitting on the same sidewalk as the `first Virtual Camera`
 12. On Both `Virtual Cameras`, expand the `Cinemachine Collider` and set the `Optimal Target Distance` to 1 (at the very bottom).
-13. Move the character forward. The `ClearShot Camera` should now switch between the two `Virtual Cameras` based on the target distance to the character.
+13. Move the character forward. The `ClearShot Camera` should now switch between the two `Virtual Cameras` based on the target distance to the character. If not, you might need to move the virtual cameras around a little or fiddle with the `Optimal Target Distance`.
 
 
 *Obviously, you could place the cameras wherever you want, however placing it here makes it easier to see the effect the Clearshot Camera has.
