@@ -4,7 +4,9 @@
 2. `Cinemachine` -> `Create Dolly Camera with Track`.
 3. Create an empty object, reset the transform and move the track and virtual camera into the object.
 4. Select the virtual camera.
-5. Drag the `_cyborg_base` object into the `Look At` property of the virtual camera.
+5. Drag the `_cyborg_base` object into the `Look At` property of the virtual camera. 
+   * Adjust the `Aim` -> `Tracked Object Offset` -> `Y` value to look at the center of the player.
+   * Increase the `Lens` -> `Field of View` value.
 6. Select the dolly track and add a new waypoint.
 7. Move the waypoint to the desired location.
 8. Keep adding maypoints along the road.
